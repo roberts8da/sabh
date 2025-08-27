@@ -9,7 +9,7 @@ import os
 def get_config():
     return [
         {
-            "username": os.getenv('CF_USERNAME', '2372497899@qq.com'),
+            "username": os.getenv('CF_USERNAME', ''),
             "password": os.getenv('CF_PASSWORD', ''),
             "api_endpoint": os.getenv('CF_API_ENDPOINT', 'https://api.cf.ap21.hana.ondemand.com'),
             "org": os.getenv('CF_ORG', ''),
